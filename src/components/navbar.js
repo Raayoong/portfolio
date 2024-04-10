@@ -20,16 +20,19 @@ const Navbar = () => {
     const menuIconRef = useRef();
     const menuRef = useRef();
     const [isOpen, setIsOpen] = useState(false);
+    const [menuIsOpen, setMenuIsOpen] = useState(false);
         window.addEventListener("click", (e)=>{
             if(profileRef.current !== e.target && socialRef.current !== e.target){
                 setIsOpen(false)
             }
-            if(menuRef.current !== e.target && menuIconRef.current !== e.target){
-                setIsOpen(false)
-            }
+            
+            if(menuIconRef.current !== e.target && menuRef.current !== e.target){
+                setMenuIsOpen(false)
+            } 
+            
         })
     return ( 
-        <div className="bg-blue-950 flex items-center p-4 justify-between relative">
+        <div className="bg-blue-950 flex items-center p-2 justify-between fixed top-0 w-full">
             <div className="logo">
                 <img onClick={()=>{
                     setIsOpen(!isOpen)}} className="max-w-12 rounded-full cursor-pointer bg-blue-700 " src={Profile} alt="" ref={profileRef} />
@@ -44,8 +47,9 @@ const Navbar = () => {
                     )}
                 </ul>
             </div>
+            {/* open menu */}
             {
-                isOpen &&
+                menuIsOpen &&
                 <div className="navmenu absolute lg:hidden rounded-lg bg-blue-950 p-4 -bottom-[17.3rem] right-1" ref={menuRef}>
                 <ul className="flex flex-col gap-12 mx-4 text-blue-200">
                     {
@@ -73,7 +77,7 @@ const Navbar = () => {
             }
             <div className="menu-icon lg:hidden">
                 <img className="w-[28px]" src={MenuIcon} alt="" onClick={()=>{
-                    setIsOpen(!isOpen)
+                    setMenuIsOpen(!menuIsOpen)
                 }} ref={menuIconRef}/>
             </div>
             
