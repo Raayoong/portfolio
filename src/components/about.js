@@ -9,14 +9,15 @@ const About = () => {
     {company: "Graduated @ Lorma Colleges", position: "Computer Engineering", year: "2013-2018"}
 ]
   return (
-    <section className="h-screen w-full">
+    <section id="About" className="h-screen w-full">
       <div className="flex flex-row-reverse justify-center">
         <figure>
-          <img className="w-[600px]" src={Coding} alt="" />
+          <img className="w-[600px] drop-shadow-md" src={Coding} alt="" />
         </figure>
         <div className="w-3/6 flex flex-col justify-evenly">
-          <header className="flex">
-            <h1 className="text-4xl font-semibold pb-4">About</h1>
+          <header className="flex flex-col">
+            <h1 className="text-4xl font-semibold">About</h1>
+            <span>Personal</span>
           </header>
           <div>
           <p className="text-justify text-lg">
@@ -47,7 +48,7 @@ const About = () => {
             <ul className="flex flex-col gap-12 ">
             {
                 works.map((work) => (
-                    <li className="flex flex-col   w-3/6 odd:text-end odd:pr-8 even:pl-8 even:ml-[50%]  " key={work.company}><div className="flex flex-col bg-blue-100 px-4 py-1 rounded-lg text-blue-800 leading-tight"><span className="font-semibold text-lg">{work.company}</span><span className="text-sm">{work.position}</span><span className="text-sm">{work.year}</span></div></li>
+                    <li className="flex flex-col   w-3/6 odd:text-end odd:pr-8 even:pl-8 even:ml-[50%]  "  key={work.company}><div className="flex flex-col bg-blue-50 px-4 py-1 rounded-lg leading-tight" data-aos="zoom-out-up" data-aos-duration="800"><span className="font-semibold text-lg">{work.company}</span><span className="text-sm">{work.position}</span><span className="text-sm">{work.year}</span></div></li>
                 ) )
             }
             </ul>

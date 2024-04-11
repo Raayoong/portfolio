@@ -32,7 +32,7 @@ const Navbar = () => {
             
         })
     return ( 
-        <div className="bg-blue-950 flex items-center p-2 justify-between fixed top-0 w-full">
+        <div className="bg-blue-950 flex items-center p-2 justify-between fixed top-0 w-full z-50">
             <div className="logo">
                 <img onClick={()=>{
                     setIsOpen(!isOpen)}} className="max-w-12 rounded-full cursor-pointer bg-blue-700 " src={Profile} alt="" ref={profileRef} />
