@@ -1,3 +1,4 @@
+import About from "./components/about";
 import Home from "./components/home";
 import Navbar from "./components/navbar";
 
@@ -10,6 +11,7 @@ function App() {
       </nav>
       <main className="w-[1460px] mx-auto mt-[5rem] p-4">
         <Home />
+        <About />
       </main>
     </div>
   );
