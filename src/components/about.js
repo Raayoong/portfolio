@@ -110,7 +110,7 @@ const About = () => {
                 myServices.map((service) =>(
 
                   <div className="group" data-aos="zoom-in-left">
-                  <div className="card p-4 bg-blue-800 rounded-lg drop-shadow-2xl transition ease-in-out min-w-md min-h-[220px] overflow-hidden hover:scale-105 ">
+                  <div className="card p-4 border-t-4 border-teal-400 bg-blue-800 rounded-lg drop-shadow-xl transition ease-in-out min-w-md min-h-[220px] overflow-hidden hover:scale-105 ">
                     <div className="card-header text-center pb-4">
                       <h2 className="text-2xl font-semibold text-blue-100 translate-y-[240%] group-hover:text-xl group-hover:translate-y-0 transition ease-out duration-500">{service.title}</h2>
                     </div>
