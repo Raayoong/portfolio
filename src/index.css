@@ -59,3 +59,9 @@ code {
   left: -6px;
   z-index: 1;
 }
+/* decrease opacity of cards when not hovered */
+.cardlist:hover > :not(:hover)
+{
+  opacity: 0.4;
+}
+
