@@ -37,15 +37,15 @@ const About = () => {
   ];
 
   return (
-    <section id="About" className="h-[150vh] w-full">
+    <section id="About" className="lg:h-[150vh] pt-32 lg:pt-20 lg:pt-56 pb-12 w-full">
       <div className="flex flex-row-reverse justify-center ">
         <figure>
           <img className="w-[600px] hidden lg:block drop-shadow-md" src={Coding} alt="" />
         </figure>
         <div className="lg:w-3/6 flex flex-col lg:justify-evenly">
           <header className="flex flex-col">
-            <h1 className="text-4xl font-semibold text-center">About</h1>
-            <span className="text-center">Personal</span>
+            <h1 className="text-4xl font-semibold lg:text-start text-center">About</h1>
+            <span className="text-center lg:text-start">Personal</span>
           </header>
           <div>
             <p className="text-center text-lg lg:text-justify">

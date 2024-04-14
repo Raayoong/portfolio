@@ -3,7 +3,7 @@ import Plane from "../assets/send-plane-fill.svg";
 
 const Home = () => {
   return (
-    <section id="Home" className="h-screen flex items-center justify-center pb-[13rem] pt-20">
+    <section id="Home" className="h-screen flex items-center justify-center lg:pb-[13rem] pt-20">
       <div className="flex flex-col lg:flex-row items-center justify-center gap-14 border-[1px] p-8 rounded-2xl shadow-md">
         <figure className="flex justify-center">
           <img className="w-3/4 lg:w-[300px] " src={Profile} alt="" />
