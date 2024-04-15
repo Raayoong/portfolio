@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f0debbeb.css",
+    "main.js": "/portfolio/static/js/main.dfd6aba3.js",
+    "static/media/rc_laptop.png": "/portfolio/static/media/rc_laptop.3dc4ac2eede0b23153e4.png",
+    "static/media/icons8-react.svg": "/portfolio/static/media/icons8-react.d725aebee0e3b84bc8e261385ac10c79.svg",
+    "static/media/undraw_message_sent_re_q2kl.svg": "/portfolio/static/media/undraw_message_sent_re_q2kl.a8f4fe038e058570f82f9534fe296fc2.svg",
+    "static/media/coding.svg": "/portfolio/static/media/coding.b17defaa36c8fbf1bda006504208ab93.svg",
+    "static/media/icons8-mysql.svg": "/portfolio/static/media/icons8-mysql.c0571d009f945f2381476ad07ceb4d99.svg",
+    "static/media/male_avatar.svg": "/portfolio/static/media/male_avatar.f62f3e695d210101ecd37ab5ec8c7008.svg",
+    "static/media/github-fill.svg": "/portfolio/static/media/github-fill.4f777286421f3ca1932e7f4d038955e8.svg",
+    "static/media/icons8-php-logo.svg": "/portfolio/static/media/icons8-php-logo.0a4db5e50012714bd5e409a82e9b536e.svg",
+    "static/media/linkedin-box-fill.svg": "/portfolio/static/media/linkedin-box-fill.1cfd9e751f2c2813517363abecdd3ab1.svg",
+    "static/media/icons8-javascript.svg": "/portfolio/static/media/icons8-javascript.34cd9860149518f3e4ecc21a4b50efae.svg",
+    "static/media/google-fill.svg": "/portfolio/static/media/google-fill.5c1d6000d2128e6573196064fc6fa21c.svg",
+    "static/media/icons8-git.svg": "/portfolio/static/media/icons8-git.43d387b77657117c0e407816cbf72476.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/facebook-circle-fill.svg": "/portfolio/static/media/facebook-circle-fill.d331904c919b96bea1d6707ff01549b3.svg",
+    "static/media/icons8-css.svg": "/portfolio/static/media/icons8-css.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/icons8-html-5.svg": "/portfolio/static/media/icons8-html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
+    "static/media/send-plane-fill.svg": "/portfolio/static/media/send-plane-fill.29000634af744d786936d7530e94ff89.svg",
+    "static/media/menu-line.svg": "/portfolio/static/media/menu-line.4007398ebca978d3e08f5ee032704cce.svg",
+    "main.f0debbeb.css.map": "/portfolio/static/css/main.f0debbeb.css.map",
+    "main.dfd6aba3.js.map": "/portfolio/static/js/main.dfd6aba3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0debbeb.css",
+    "static/js/main.dfd6aba3.js"
+  ]
+}
